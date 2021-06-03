@@ -10,4 +10,10 @@
     <ProjectReference Include="..\Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext\Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Haskap.DddBase.Domain.Services">
+      <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Domain.Services.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
