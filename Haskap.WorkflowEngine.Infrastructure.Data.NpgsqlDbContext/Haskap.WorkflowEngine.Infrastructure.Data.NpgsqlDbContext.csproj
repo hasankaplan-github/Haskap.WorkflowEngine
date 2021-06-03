@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Domain.Core\Haskap.WorkflowEngine.Domain.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Haskap.DddBase.Domain.Core">
+      <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Domain.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Haskap.DddBase.Infrastructure.Data.EfCoreDbContexts.NpgsqlDbContext">
+      <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Infrastructure.Data.EfCoreDbContexts.NpgsqlDbContext.dll</HintPath>
+    </Reference>
+    <Reference Include="Haskap.DddBase.Infrastructure.Data.EfCoreEntityTypeConfigurations">
+      <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Infrastructure.Data.EfCoreEntityTypeConfigurations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

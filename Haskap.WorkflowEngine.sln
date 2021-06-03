@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1C5BE6F0-D734-4922-A087-2898BD06AB81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E9FD7784-7D5C-4B77-807C-33373A28D23C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E441120C-1757-42D6-BC8E-70BFEF44DF11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalServices", "ExternalServices", "{4733B3CB-EA0B-4D77-B640-4C4BED77FB51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{E5A20EC0-EBB3-4E3A-97D0-2443947C16F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B4458093-BFA5-45AF-97F0-D439FE22A569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F9C04D2E-6F5E-4363-9DB3-A259F15419CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UiClient", "UiClient", "{2E1F00AB-D17B-4531-993F-1C0B5318D36E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Domain.Core.Shared", "Haskap.WorkflowEngine.Domain.Core.Shared\Haskap.WorkflowEngine.Domain.Core.Shared.csproj", "{A8B19AF5-ED5E-494A-86CA-752D2E379DD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Domain.Core", "Haskap.WorkflowEngine.Domain.Core\Haskap.WorkflowEngine.Domain.Core.csproj", "{7573DBE6-E253-4194-BFFA-D4AF0351E6BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Domain.Services", "Haskap.WorkflowEngine.Domain.Services\Haskap.WorkflowEngine.Domain.Services.csproj", "{99541528-871F-453A-9D0F-3E5F4B971621}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Presentation.WebApi", "Haskap.WorkflowEngine.Presentation.WebApi\Haskap.WorkflowEngine.Presentation.WebApi.csproj", "{5E572958-5965-4D7E-BBED-D8B189181F69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Application.UseCaseServices", "Haskap.WorkflowEngine.Application.UseCaseServices\Haskap.WorkflowEngine.Application.UseCaseServices.csproj", "{A09DBA53-4D8E-4A69-9458-F06E5ACD0A61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Application.UseCaseServices.Contracts", "Haskap.WorkflowEngine.Application.UseCaseServices.Contracts\Haskap.WorkflowEngine.Application.UseCaseServices.Contracts.csproj", "{2F572756-EA9D-44BE-9B33-F318C56B7580}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Application.UseCaseServices.Dtos", "Haskap.WorkflowEngine.Application.UseCaseServices.Dtos\Haskap.WorkflowEngine.Application.UseCaseServices.Dtos.csproj", "{03F478F7-9803-4B4F-8984-A61C069EDE73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext", "Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext\Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext.csproj", "{76233FA9-8A2B-4F0E-8706-06EA8E4C1552}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8B19AF5-ED5E-494A-86CA-752D2E379DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B19AF5-ED5E-494A-86CA-752D2E379DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B19AF5-ED5E-494A-86CA-752D2E379DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B19AF5-ED5E-494A-86CA-752D2E379DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7573DBE6-E253-4194-BFFA-D4AF0351E6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7573DBE6-E253-4194-BFFA-D4AF0351E6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7573DBE6-E253-4194-BFFA-D4AF0351E6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7573DBE6-E253-4194-BFFA-D4AF0351E6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99541528-871F-453A-9D0F-3E5F4B971621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99541528-871F-453A-9D0F-3E5F4B971621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99541528-871F-453A-9D0F-3E5F4B971621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99541528-871F-453A-9D0F-3E5F4B971621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E572958-5965-4D7E-BBED-D8B189181F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E572958-5965-4D7E-BBED-D8B189181F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E572958-5965-4D7E-BBED-D8B189181F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E572958-5965-4D7E-BBED-D8B189181F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09DBA53-4D8E-4A69-9458-F06E5ACD0A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09DBA53-4D8E-4A69-9458-F06E5ACD0A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09DBA53-4D8E-4A69-9458-F06E5ACD0A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09DBA53-4D8E-4A69-9458-F06E5ACD0A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F572756-EA9D-44BE-9B33-F318C56B7580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F572756-EA9D-44BE-9B33-F318C56B7580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F572756-EA9D-44BE-9B33-F318C56B7580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F572756-EA9D-44BE-9B33-F318C56B7580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F478F7-9803-4B4F-8984-A61C069EDE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F478F7-9803-4B4F-8984-A61C069EDE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F478F7-9803-4B4F-8984-A61C069EDE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F478F7-9803-4B4F-8984-A61C069EDE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76233FA9-8A2B-4F0E-8706-06EA8E4C1552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76233FA9-8A2B-4F0E-8706-06EA8E4C1552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76233FA9-8A2B-4F0E-8706-06EA8E4C1552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76233FA9-8A2B-4F0E-8706-06EA8E4C1552}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E441120C-1757-42D6-BC8E-70BFEF44DF11} = {E9FD7784-7D5C-4B77-807C-33373A28D23C}
+		{4733B3CB-EA0B-4D77-B640-4C4BED77FB51} = {E9FD7784-7D5C-4B77-807C-33373A28D23C}
+		{E5A20EC0-EBB3-4E3A-97D0-2443947C16F2} = {E9FD7784-7D5C-4B77-807C-33373A28D23C}
+		{A8B19AF5-ED5E-494A-86CA-752D2E379DD7} = {1C5BE6F0-D734-4922-A087-2898BD06AB81}
+		{7573DBE6-E253-4194-BFFA-D4AF0351E6BD} = {1C5BE6F0-D734-4922-A087-2898BD06AB81}
+		{99541528-871F-453A-9D0F-3E5F4B971621} = {1C5BE6F0-D734-4922-A087-2898BD06AB81}
+		{5E572958-5965-4D7E-BBED-D8B189181F69} = {F9C04D2E-6F5E-4363-9DB3-A259F15419CF}
+		{A09DBA53-4D8E-4A69-9458-F06E5ACD0A61} = {B4458093-BFA5-45AF-97F0-D439FE22A569}
+		{2F572756-EA9D-44BE-9B33-F318C56B7580} = {B4458093-BFA5-45AF-97F0-D439FE22A569}
+		{03F478F7-9803-4B4F-8984-A61C069EDE73} = {B4458093-BFA5-45AF-97F0-D439FE22A569}
+		{76233FA9-8A2B-4F0E-8706-06EA8E4C1552} = {E441120C-1757-42D6-BC8E-70BFEF44DF11}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {777D4469-E38D-45EA-ADFF-990129C5D204}
+	EndGlobalSection
+EndGlobal

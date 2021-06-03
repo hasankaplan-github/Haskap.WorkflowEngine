@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ActionAggregate\Exceptions\" />
+    <Folder Include="ActionAggregate\Specifications\" />
+    <Folder Include="ActionAggregate\Validations\" />
+    <Folder Include="ComponentAggregate\Exceptions\" />
+    <Folder Include="ComponentAggregate\Specifications\" />
+    <Folder Include="ComponentAggregate\Validations\" />
+    <Folder Include="SmsNotificationTemplateAggregate\Exceptions\" />
+    <Folder Include="SmsNotificationTemplateAggregate\Specifications\" />
+    <Folder Include="SmsNotificationTemplateAggregate\Validations\" />
+    <Folder Include="SmsNotificationAggregate\Exceptions\" />
+    <Folder Include="SmsNotificationAggregate\Specifications\" />
+    <Folder Include="SmsNotificationAggregate\Validations\" />
+    <Folder Include="EmailNotificationAggregate\Exceptions\" />
+    <Folder Include="EmailNotificationAggregate\Specifications\" />
+    <Folder Include="EmailNotificationAggregate\Validations\" />
+    <Folder Include="EmailNotificationTemplateAggregate\Exceptions\" />
+    <Folder Include="EmailNotificationTemplateAggregate\Specifications\" />
+    <Folder Include="EmailNotificationTemplateAggregate\Validations\" />
+    <Folder Include="PathAggregate\Exceptions\" />
+    <Folder Include="PathAggregate\Specifications\" />
+    <Folder Include="PathAggregate\Validations\" />
+    <Folder Include="ProcessAggregate\Exceptions\" />
+    <Folder Include="ProcessAggregate\Specifications\" />
+    <Folder Include="ProcessAggregate\Validations\" />
+    <Folder Include="RequestAggregate\Exceptions\" />
+    <Folder Include="RequestAggregate\Specifications\" />
+    <Folder Include="RequestAggregate\Validations\" />
+    <Folder Include="RoleAggregate\Exceptions\" />
+    <Folder Include="RoleAggregate\Specifications\" />
+    <Folder Include="RoleAggregate\Validations\" />
+    <Folder Include="StateAggregate\Exceptions\" />
+    <Folder Include="StateAggregate\Specifications\" />
+    <Folder Include="StateAggregate\Validations\" />
+    <Folder Include="UserAggregate\Exceptions\" />
+    <Folder Include="UserAggregate\Specifications\" />
+    <Folder Include="UserAggregate\Validations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Domain.Core.Shared\Haskap.WorkflowEngine.Domain.Core.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Haskap.DddBase.Domain.Core">
+      <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Domain.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

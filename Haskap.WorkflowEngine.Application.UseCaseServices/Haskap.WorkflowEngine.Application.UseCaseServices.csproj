@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Application.UseCaseServices.Contracts\Haskap.WorkflowEngine.Application.UseCaseServices.Contracts.csproj" />
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Application.UseCaseServices.Dtos\Haskap.WorkflowEngine.Application.UseCaseServices.Dtos.csproj" />
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Domain.Core.Shared\Haskap.WorkflowEngine.Domain.Core.Shared.csproj" />
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Domain.Core\Haskap.WorkflowEngine.Domain.Core.csproj" />
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Domain.Services\Haskap.WorkflowEngine.Domain.Services.csproj" />
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext\Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext.csproj" />
+  </ItemGroup>
+
+</Project>
