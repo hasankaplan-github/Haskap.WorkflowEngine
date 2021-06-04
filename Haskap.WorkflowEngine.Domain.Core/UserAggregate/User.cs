@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Haskap.WorkflowEngine.Domain.Core.ProcessAggregate;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Haskap.WorkflowEngine.Domain.Core.UserAggregate
 {
@@ -21,6 +23,13 @@ namespace Haskap.WorkflowEngine.Domain.Core.UserAggregate
             LastName = lastName ?? throw new ArgumentNullException(nameof(lastName));
 
             UserRoles = new List<UserRole>();
+        }
+
+        public bool IsAdminOf(Process process)
+        {
+            if (process.AdminRoleId is null) return false;
+
+            return UserRoles.Any(x => x.RoleId == process.AdminRoleId.Value);
         }
     }
 }

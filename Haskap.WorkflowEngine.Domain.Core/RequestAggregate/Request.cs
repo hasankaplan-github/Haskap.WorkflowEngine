@@ -14,5 +14,22 @@ namespace Haskap.WorkflowEngine.Domain.Core.RequestAggregate
         public Guid? OwnerId { get; set; }
         public Guid? CurrentStateId { get; set; }
         public ICollection<Progress> Progresses { get; set; }
+
+        private Request()
+        {
+            
+        }
+
+        public Request(Guid id, string title, string description, Guid processId, Guid ownerId, Guid currentStateId)
+            : base(id)
+        {
+            Id = id;
+            Title = title ?? throw new ArgumentNullException(nameof(title));
+            Description = description;
+            ProcessId = processId;
+            OwnerId = ownerId;
+            CurrentStateId = currentStateId;
+            Progresses = new List<Progress>();
+        }
     }
 }

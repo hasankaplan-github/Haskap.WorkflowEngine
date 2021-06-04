@@ -36,7 +36,6 @@
     <Folder Include="RoleAggregate\Specifications\" />
     <Folder Include="RoleAggregate\Validations\" />
     <Folder Include="StateAggregate\Exceptions\" />
-    <Folder Include="StateAggregate\Specifications\" />
     <Folder Include="StateAggregate\Validations\" />
     <Folder Include="UserAggregate\Exceptions\" />
     <Folder Include="UserAggregate\Specifications\" />
@@ -54,6 +53,12 @@
   <ItemGroup>
     <Reference Include="Haskap.DddBase.Domain.Core">
       <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Domain.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Haskap.DddBase.Domain.Core.Specifications">
+      <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Domain.Core.Specifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Utilities">
+      <HintPath>..\HaskapDddBaseReferences\Debug\Utilities.dll</HintPath>
     </Reference>
   </ItemGroup>
 

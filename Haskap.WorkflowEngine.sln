@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Appli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext", "Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext\Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext.csproj", "{76233FA9-8A2B-4F0E-8706-06EA8E4C1552}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haskap.WorkflowEngine.Infrastructure.ExternalServices", "Haskap.WorkflowEngine.Infrastructure.ExternalServices\Haskap.WorkflowEngine.Infrastructure.ExternalServices.csproj", "{DB8BF56C-A9A3-4EDE-9272-9FD63139D4ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{76233FA9-8A2B-4F0E-8706-06EA8E4C1552}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76233FA9-8A2B-4F0E-8706-06EA8E4C1552}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76233FA9-8A2B-4F0E-8706-06EA8E4C1552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8BF56C-A9A3-4EDE-9272-9FD63139D4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8BF56C-A9A3-4EDE-9272-9FD63139D4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8BF56C-A9A3-4EDE-9272-9FD63139D4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8BF56C-A9A3-4EDE-9272-9FD63139D4ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +95,7 @@ Global
 		{2F572756-EA9D-44BE-9B33-F318C56B7580} = {B4458093-BFA5-45AF-97F0-D439FE22A569}
 		{03F478F7-9803-4B4F-8984-A61C069EDE73} = {B4458093-BFA5-45AF-97F0-D439FE22A569}
 		{76233FA9-8A2B-4F0E-8706-06EA8E4C1552} = {E441120C-1757-42D6-BC8E-70BFEF44DF11}
+		{DB8BF56C-A9A3-4EDE-9272-9FD63139D4ED} = {4733B3CB-EA0B-4D77-B640-4C4BED77FB51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {777D4469-E38D-45EA-ADFF-990129C5D204}

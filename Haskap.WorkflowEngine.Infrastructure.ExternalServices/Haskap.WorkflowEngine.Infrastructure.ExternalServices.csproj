@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Domain.Core.Shared\Haskap.WorkflowEngine.Domain.Core.Shared.csproj" />
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Domain.Core\Haskap.WorkflowEngine.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>
