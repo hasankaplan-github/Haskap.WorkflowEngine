@@ -5,10 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Haskap.WorkflowEngine.Application.DomainEventHandlers\Haskap.WorkflowEngine.Application.DomainEventHandlers.csproj" />
     <ProjectReference Include="..\Haskap.WorkflowEngine.Application.UseCaseServices.Contracts\Haskap.WorkflowEngine.Application.UseCaseServices.Contracts.csproj" />
     <ProjectReference Include="..\Haskap.WorkflowEngine.Application.UseCaseServices\Haskap.WorkflowEngine.Application.UseCaseServices.csproj" />
   </ItemGroup>

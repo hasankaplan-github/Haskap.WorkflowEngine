@@ -6,12 +6,22 @@
 
   <ItemGroup>
     <Folder Include="ActionAggregate\Exceptions\" />
+    <Folder Include="ActionAggregate\DomainEvents\" />
     <Folder Include="ActionAggregate\Specifications\" />
     <Folder Include="ActionAggregate\Validations\" />
     <Folder Include="ComponentAggregate\Exceptions\" />
+    <Folder Include="ComponentAggregate\DomainEvents\" />
     <Folder Include="ComponentAggregate\Specifications\" />
     <Folder Include="ComponentAggregate\Validations\" />
+    <Folder Include="EmailNotificationAggregate\DomainEvents\" />
+    <Folder Include="EmailNotificationTemplateAggregate\DomainEvents\" />
+    <Folder Include="PathAggregate\DomainEvents\" />
+    <Folder Include="ProcessAggregate\DomainEvents\" />
+    <Folder Include="RequestAggregate\DomainEvents\" />
+    <Folder Include="RoleAggregate\DomainEvents\" />
+    <Folder Include="SmsNotificationAggregate\DomainEvents\" />
     <Folder Include="SmsNotificationTemplateAggregate\Exceptions\" />
+    <Folder Include="SmsNotificationTemplateAggregate\DomainEvents\" />
     <Folder Include="SmsNotificationTemplateAggregate\Specifications\" />
     <Folder Include="SmsNotificationTemplateAggregate\Validations\" />
     <Folder Include="SmsNotificationAggregate\Exceptions\" />
@@ -36,8 +46,10 @@
     <Folder Include="RoleAggregate\Specifications\" />
     <Folder Include="RoleAggregate\Validations\" />
     <Folder Include="StateAggregate\Exceptions\" />
+    <Folder Include="StateAggregate\DomainEvents\" />
     <Folder Include="StateAggregate\Validations\" />
     <Folder Include="UserAggregate\Exceptions\" />
+    <Folder Include="UserAggregate\DomainEvents\" />
     <Folder Include="UserAggregate\Specifications\" />
     <Folder Include="UserAggregate\Validations\" />
   </ItemGroup>

@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.6" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.7" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +22,9 @@
     </Reference>
     <Reference Include="Haskap.DddBase.Infrastructure.Data.EfCoreEntityTypeConfigurations">
       <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Infrastructure.Data.EfCoreEntityTypeConfigurations.dll</HintPath>
+    </Reference>
+    <Reference Include="Haskap.DddBase.Infrastructure.Mediator">
+      <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Infrastructure.Mediator.dll</HintPath>
     </Reference>
   </ItemGroup>
 
