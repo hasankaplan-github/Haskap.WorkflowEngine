@@ -23,9 +23,6 @@
     <Reference Include="Haskap.DddBase.Infrastructure.Data.EfCoreEntityTypeConfigurations">
       <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Infrastructure.Data.EfCoreEntityTypeConfigurations.dll</HintPath>
     </Reference>
-    <Reference Include="Haskap.DddBase.Infrastructure.Mediator">
-      <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Infrastructure.Mediator.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
