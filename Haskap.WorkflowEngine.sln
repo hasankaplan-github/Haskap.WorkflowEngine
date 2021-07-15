@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Infra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haskap.WorkflowEngine.Infrastructure.ExternalServices", "Haskap.WorkflowEngine.Infrastructure.ExternalServices\Haskap.WorkflowEngine.Infrastructure.ExternalServices.csproj", "{DB8BF56C-A9A3-4EDE-9272-9FD63139D4ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haskap.WorkflowEngine.Application.DomainEventHandlers", "Haskap.WorkflowEngine.Application.DomainEventHandlers\Haskap.WorkflowEngine.Application.DomainEventHandlers.csproj", "{7F7CE7C9-567B-443C-8508-1978B2BB2B3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haskap.WorkflowEngine.Application.EventHandlers", "Haskap.WorkflowEngine.Application.EventHandlers\Haskap.WorkflowEngine.Application.EventHandlers.csproj", "{7F7CE7C9-567B-443C-8508-1978B2BB2B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

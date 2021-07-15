@@ -27,18 +27,21 @@ namespace Haskap.WorkflowEngine.Presentation.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Haskap.WorkflowEngine.Presentation.WebApi", Version = "v1" });
             });
-            services.AddMediatR(typeof(Application.DomainEventHandlers.TestEventHandler).Assembly);
+            services.AddMediatR(typeof(Application.EventHandlers.TestEventHandler).Assembly);
+            // var serviceProvider = services.BuildServiceProvider();
+            // EventPublisher.Mediator = () => serviceProvider.GetRequiredService<IMediator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IMediator mediator)
         {
+            EventPublisher.Mediator = () => mediator;
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
