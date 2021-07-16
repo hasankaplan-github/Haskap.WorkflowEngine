@@ -17,7 +17,6 @@
     <Folder Include="EmailNotificationTemplateAggregate\DomainEvents\" />
     <Folder Include="PathAggregate\DomainEvents\" />
     <Folder Include="ProcessAggregate\DomainEvents\" />
-    <Folder Include="RequestAggregate\DomainEvents\" />
     <Folder Include="RoleAggregate\DomainEvents\" />
     <Folder Include="SmsNotificationAggregate\DomainEvents\" />
     <Folder Include="SmsNotificationTemplateAggregate\Exceptions\" />
@@ -56,6 +55,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="10.2.2" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>

@@ -11,6 +11,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace Haskap.WorkflowEngine.Presentation.WebApi
@@ -32,7 +33,7 @@ namespace Haskap.WorkflowEngine.Presentation.WebApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Haskap.WorkflowEngine.Presentation.WebApi", Version = "v1" });
             });
-            services.AddMediatR(typeof(Application.EventHandlers.TestEventHandler).Assembly);
+            services.AddMediatR(typeof(Application.EventHandlers.StateChangedEventHandlers.EmailActivityHandler).Assembly);
             // var serviceProvider = services.BuildServiceProvider();
             // EventPublisher.Mediator = () => serviceProvider.GetRequiredService<IMediator>();
         }
