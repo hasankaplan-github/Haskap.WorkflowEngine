@@ -28,7 +28,7 @@ namespace Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext.EntityTypeCo
                 //.HasField("validatedToAddresses")
                 .HasColumnName("to_addresses")
                 .HasConversion(
-                    v => string.Join(';', v),
+                    v => string.Join(';', v.Select(x => x.Address)),
                     v => v.Split(';', StringSplitOptions.RemoveEmptyEntries).Select(x => new EmailNotificationAddress(x)).ToList())
                 .Metadata
                 .SetValueComparer(emailNotificationAddressValueComparer);
@@ -38,7 +38,7 @@ namespace Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext.EntityTypeCo
                 //.HasField("validatedBccAddresses")
                 .HasColumnName("bcc_addresses")
                 .HasConversion(
-                    v => string.Join(';', v),
+                    v => string.Join(';', v.Select(x => x.Address)),
                     v => v.Split(';', StringSplitOptions.RemoveEmptyEntries).Select(x => new EmailNotificationAddress(x)).ToList())
                 .Metadata
                 .SetValueComparer(emailNotificationAddressValueComparer);
@@ -48,7 +48,7 @@ namespace Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext.EntityTypeCo
                 //.HasField("validatedCcAddresses")
                 .HasColumnName("cc_addresses")
                 .HasConversion(
-                    v => string.Join(';', v),
+                    v => string.Join(';', v.Select(x => x.Address)),
                     v => v.Split(';', StringSplitOptions.RemoveEmptyEntries).Select(x => new EmailNotificationAddress(x)).ToList())
                 .Metadata
                 .SetValueComparer(emailNotificationAddressValueComparer);

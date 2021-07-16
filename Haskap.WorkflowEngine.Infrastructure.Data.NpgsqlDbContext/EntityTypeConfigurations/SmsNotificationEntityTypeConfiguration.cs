@@ -28,7 +28,7 @@ namespace Haskap.WorkflowEngine.Infrastructure.Data.NpgsqlDbContext.EntityTypeCo
                 //.HasField("validatedToAddresses")
                 .HasColumnName("gsm_numbers")
                 .HasConversion(
-                    v => string.Join(';', v),
+                    v => string.Join(';', v.Select(x => x.Address)),
                     v => v.Split(';', StringSplitOptions.RemoveEmptyEntries).Select(x => new SmsNotificationAddress(x)).ToList())
                 .Metadata
                 .SetValueComparer(smsNotificationAddressValueComparer);
