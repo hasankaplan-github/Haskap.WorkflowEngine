@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Haskap.WorkflowEngine.Application.EventHandlers.StateChangedEventHandlers
 {
-    public class EmailActivityHandler : INotificationHandler<StateChangedEvent>
+    public class EmailActivityHandler : INotificationHandler<StateChangedDomainEvent>
     {
-        public async Task Handle(StateChangedEvent notification, CancellationToken cancellationToken)
+        public async Task Handle(StateChangedDomainEvent notification, CancellationToken cancellationToken)
         {
-            // user UseCaseServices to get activities belong to event data (pathId) and send email.
+            // use UseCaseServices to get activities belong to event data (pathId) and send email.
             throw new NotImplementedException();
         }
     }

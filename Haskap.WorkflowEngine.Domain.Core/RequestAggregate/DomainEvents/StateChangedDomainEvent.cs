@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 namespace Haskap.WorkflowEngine.Domain.Core.RequestAggregate.DomainEvents
 {
     [Serializable]
-    public class StateChangedEvent : INotification
+    public record StateChangedDomainEvent : DomainEvent
     {
         public Guid RequestId { get; }
         public Guid PathId { get; }
         public Dictionary<string, object> NotificationData { get; }
 
-        public StateChangedEvent(Guid requestId, Guid pathId, Dictionary<string, object> notificationData)
+        public StateChangedDomainEvent(Guid requestId, Guid pathId, Dictionary<string, object> notificationData)
         {
             RequestId = requestId;
             PathId = pathId;

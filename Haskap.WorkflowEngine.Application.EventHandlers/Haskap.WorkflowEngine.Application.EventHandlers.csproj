@@ -14,4 +14,10 @@
     <ProjectReference Include="..\Haskap.WorkflowEngine.Domain.Core\Haskap.WorkflowEngine.Domain.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Haskap.DddBase.Domain.Core">
+      <HintPath>..\HaskapDddBaseReferences\Debug\Haskap.DddBase.Domain.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
