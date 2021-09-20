@@ -38,9 +38,6 @@
     <Folder Include="ProcessAggregate\Exceptions\" />
     <Folder Include="ProcessAggregate\Specifications\" />
     <Folder Include="ProcessAggregate\Validations\" />
-    <Folder Include="RequestAggregate\Exceptions\" />
-    <Folder Include="RequestAggregate\Specifications\" />
-    <Folder Include="RequestAggregate\Validations\" />
     <Folder Include="RoleAggregate\Exceptions\" />
     <Folder Include="RoleAggregate\Specifications\" />
     <Folder Include="RoleAggregate\Validations\" />
