@@ -41,7 +41,7 @@ namespace Haskap.WorkflowEngine.Presentation.WebApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IMediator mediator)
         {
-            MediatorWrapper.Mediator = () => mediator;
+            MediatorWrapper.MediatorFunc = () => mediator;
 
             if (env.IsDevelopment())
             {
